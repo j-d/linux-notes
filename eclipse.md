@@ -1,4 +1,6 @@
+```
 sudo apt-get install eclipse
+```
 Help> Install New Software
 Add http://download.eclipse.org/releases/indigo
 Wait
