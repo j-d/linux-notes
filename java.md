@@ -1,4 +1,4 @@
-# Java OpenJDK  ((NOT RECOMMENDED FOR PHPSTORM))
+# Java OpenJDK  (NOT RECOMMENDED FOR PHPSTORM)
 ```
 sudo apt-get install openjdk-7-jre-headless openjdk-7-jdk
 ```
