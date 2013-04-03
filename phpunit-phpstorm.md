@@ -5,6 +5,7 @@ sudo tee -a /etc/php5/apache2/php.ini << EOF
 xdebug.remote_enable=1
 xdebug.remote_host=localhost
 xdebug.remote_port=9000
+xdebug.profiler_enable=1
 EOF
 sudo apache2ctl restart
 ```
