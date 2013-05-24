@@ -15,6 +15,13 @@ broadcast 192.168.110.255
 gateway 192.168.110.2
 ```
 Save and close the file
+
+Now we’ll need to add in the DNS settings by editing the resolv.conf file:
+
+```
+sudo vi /etc/resolv.conf
+```
+
 Restart the network:
 ```
 sudo /etc/init.d/networking restart
