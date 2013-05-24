@@ -19,7 +19,13 @@ Save and close the file
 Now we’ll need to add in the DNS settings by editing the resolv.conf file:
 
 ```
-sudo vi /etc/resolv.conf
+sudo nano /etc/resolv.conf
+```
+
+You need to also remove the dhcp client for this to stick (thanks to Peter for noticing). You might need to remove dhcp-client3 instead.
+
+```
+sudo apt-get remove dhcp-client
 ```
 
 Restart the network:
