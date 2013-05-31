@@ -42,6 +42,10 @@ grep -r “_____” /home/
 ## Free space
 df -h
 
+## Create a symbolic link for a folder
+sudo ln -s /source /target
+
 ## Other
 mod_auth_kerb
 file -b simbolic
+
