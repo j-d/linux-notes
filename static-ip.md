@@ -21,6 +21,12 @@ Now we’ll need to add in the DNS settings by editing the resolv.conf file:
 ```
 sudo nano /etc/resolv.conf
 ```
+Add:
+```
+nameserver 10.1.1.7
+nameserver 10.1.1.3
+search arkonline.local
+```
 
 You need to also remove the dhcp client for this to stick (thanks to Peter for noticing). You might need to remove dhcp-client3 instead.
 
