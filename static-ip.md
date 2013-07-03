@@ -36,5 +36,5 @@ sudo apt-get remove dhcp-client
 
 Restart the network:
 ```
-sudo /etc/init.d/networking restart
+sudo restart networking
 ```
