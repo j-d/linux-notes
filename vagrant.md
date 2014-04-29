@@ -35,6 +35,6 @@ puppet module search apache
 
 sudo apt-get install ruby1.9.1-dev gcc
 
-sudo puppet apply site.pp --modulepath="/etc/puppet/modules/"
+sudo puppet apply /vagrant/puppet/manifests/site.pp --modulepath="/etc/puppet/modules/"
 
 sudo gem install puppet
