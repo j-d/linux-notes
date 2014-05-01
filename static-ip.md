@@ -23,9 +23,9 @@ sudo nano /etc/resolv.conf
 ```
 Add:
 ```
+nameserver 10.31.242.164
 nameserver 10.1.1.7
 nameserver 10.1.1.3
-#nameserver 10.31.242.164
 search arkonline.local
 ```
 
