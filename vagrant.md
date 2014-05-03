@@ -36,5 +36,7 @@ puppet module search apache
 sudo apt-get install ruby1.9.1-dev gcc
 
 sudo puppet apply /vagrant/puppet/manifests/site.pp --modulepath="/etc/puppet/modules/" --hiera_config /vagrant/hiera.yaml
+sudo puppet apply /vagrant/puppet/manifests/site.pp --modulepath="/vagrant/puppet/modules/" --hiera_config /vagrant/hiera.yaml
+
 
 sudo gem install puppet
