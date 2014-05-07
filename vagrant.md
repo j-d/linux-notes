@@ -7,8 +7,9 @@ restart
 Copy the file lincese.lic from the email into the folder where you are going to run cmd
 
 Cmd (elevated)
-	vagrant plugin install vagrant-vmware-workstation
-	vagrant plugin license vagrant-vmware-workstation license.lic
+
+    vagrant plugin install vagrant-vmware-workstation
+    vagrant plugin license vagrant-vmware-workstation license.lic
 
 if the file `Vagrantfile` doesn't exist
 	vagrant init chef/ubuntu-14.04
